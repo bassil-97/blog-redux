@@ -1,0 +1,8 @@
+.blogs-list__container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 45px;
+    flex-wrap: wrap;
+    padding-bottom: 2rem;
+}

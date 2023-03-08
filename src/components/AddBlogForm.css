@@ -1,0 +1,10 @@
+.add-blog__form textarea { 
+    height: 200px !important; 
+    padding: 1rem;
+}
+
+.add-blog_actions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}

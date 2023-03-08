@@ -1,0 +1,50 @@
+.home-page__container {
+    margin-top: 50px;
+    padding: 2.5rem 2rem;
+    border-radius: 14px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.home-page__sections {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 40px;
+}
+
+.home-page__userMenu {
+    width: 17rem;
+    margin-top: 50px;
+    border-radius: 14px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    
+}
+
+.home-page__userMenu .header {
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 992px) {
+    .home-page__sections {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+        gap: 0px;
+    }
+
+    .home-page__userMenu {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .home-page__userMenu hr {
+        display: none;
+    }
+
+}
